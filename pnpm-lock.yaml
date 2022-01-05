@@ -14,7 +14,7 @@ specifiers:
   '@vueuse/head': ^0.7.2
   apexcharts: ^3.31.0
   autoprefixer: ^10.4.0
-  critters: ^0.0.15
+  critters: 0.0.16
   cross-env: ^7.0.3
   cypress: ^9.1.0
   daisyui: ^1.16.2
@@ -78,7 +78,7 @@ devDependencies:
   '@vue/compiler-sfc': 3.2.23
   '@vue/server-renderer': 3.2.23_vue@3.2.23
   autoprefixer: 10.4.0_postcss@8.4.4
-  critters: 0.0.15
+  critters: 0.0.16
   cross-env: 7.0.3
   cypress: 9.1.0
   eslint: 8.3.0
@@ -101,7 +101,7 @@ devDependencies:
   vite-plugin-pwa: 0.11.7_vite@2.6.14
   vite-plugin-vue-layouts: 0.5.0_9e1dbf652a28e46019b578233a662bd2
   vite-plugin-windicss: 1.5.3_vite@2.6.14
-  vite-ssg: 0.16.2_6d320fdd55a5bc574fac9940b2a14a6b
+  vite-ssg: 0.16.2_7ff09424ebfdfae03f76c3c1e70a0885
   vue-tsc: 0.29.6_typescript@4.5.2
 
 packages:
@@ -1437,8 +1437,8 @@ packages:
       '@iconify/types': 1.0.10
     dev: true
 
-  /@intlify/bundle-utils/2.1.0_vue-i18n@9.1.9:
-    resolution: {integrity: sha512-ogvmAjbSq0su4ijQbwqRfb0yimizZSK+HHV0SF3XCHSCtL+PDdRIDkkeNpNdPxNmdahORHXknC06Umehz4nTnQ==}
+  /@intlify/bundle-utils/2.2.0_vue-i18n@9.1.9:
+    resolution: {integrity: sha512-qVuN7+c84UB6rlLHSued2J9R86LG1rHg6ZibCghGMyPXnW0nOuIfkUFf1F7tXIqfMXjIPeJzlbpmzjWTI2z9Kw==}
     engines: {node: '>= 12'}
     peerDependencies:
       petite-vue-i18n: '*'
@@ -1449,8 +1449,8 @@ packages:
       vue-i18n:
         optional: true
     dependencies:
-      '@intlify/message-compiler': 9.2.0-beta.22
-      '@intlify/shared': 9.2.0-beta.22
+      '@intlify/message-compiler': 9.2.0-beta.26
+      '@intlify/shared': 9.2.0-beta.26
       jsonc-eslint-parser: 1.4.1
       source-map: 0.6.1
       vue-i18n: 9.1.9_vue@3.2.23
@@ -1485,11 +1485,11 @@ packages:
       source-map: 0.6.1
     dev: false
 
-  /@intlify/message-compiler/9.2.0-beta.22:
-    resolution: {integrity: sha512-+Nx8IpKcXBQ7L+f6UWLQf/iReD7rotBkV4oxUX1rKMQgaJToYB1ovrPYNoNDd6aK4rEQ9sJoM5nd2+ENmCs7dA==}
+  /@intlify/message-compiler/9.2.0-beta.26:
+    resolution: {integrity: sha512-qtDgHCMqrXNTekKXGzm0Dm6r3+/X7/jFXP+E07hx+PJbPMv7DzK1iU8h5LlAMQ1/jr2UIRBgXvR5wh35OKoGrA==}
     engines: {node: '>= 12'}
     dependencies:
-      '@intlify/shared': 9.2.0-beta.22
+      '@intlify/shared': 9.2.0-beta.26
       source-map: 0.6.1
     dev: true
 
@@ -1512,8 +1512,8 @@ packages:
     engines: {node: '>= 10'}
     dev: false
 
-  /@intlify/shared/9.2.0-beta.22:
-    resolution: {integrity: sha512-IyU9Trx1d5EZgAh6/3y0+efgko5xRw1iTwpM19qublZsTSnDSkHB8NnSyHVZrMARj+LgZgL7pKktsSO5os9k2A==}
+  /@intlify/shared/9.2.0-beta.26:
+    resolution: {integrity: sha512-MjUlkjNThqkqy8yXUcFKBiW/hIfqAn5cP3Vd0b4wdOHS8rPCEbvSbAnF08uiZDkVv8gTcsLyymX21GaU6oYyyQ==}
     engines: {node: '>= 12'}
     dev: true
 
@@ -1530,8 +1530,8 @@ packages:
       vue-i18n:
         optional: true
     dependencies:
-      '@intlify/bundle-utils': 2.1.0_vue-i18n@9.1.9
-      '@intlify/shared': 9.2.0-beta.22
+      '@intlify/bundle-utils': 2.2.0_vue-i18n@9.1.9
+      '@intlify/shared': 9.2.0-beta.26
       '@rollup/pluginutils': 4.1.1
       debug: 4.3.2
       fast-glob: 3.2.7
@@ -1869,7 +1869,7 @@ packages:
     resolution: {integrity: sha512-GhDe7lkpa6F/UV0q5Bztsrxgd05QEtcbWECHk6LwHXIJSb3t6SKQswQJmgbEgk38c3rIp647D7s0E1BRW/rZHg==}
     dependencies:
       domelementtype: 2.2.0
-      domhandler: 4.2.2
+      domhandler: 4.3.0
       htmlparser2: 7.1.2
       pug: 3.0.2
     dev: true
@@ -2833,14 +2833,14 @@ packages:
       yaml: 1.10.2
     dev: true
 
-  /critters/0.0.15:
-    resolution: {integrity: sha512-AE7hkXb3eZUbEvS1SKZa+OU4o2kUOXtzVeE/2E/mjU/0mV1wpBT1HfUCWVRS4zwvkBNJ0AQYsVjAoFm+kIhfdw==}
+  /critters/0.0.16:
+    resolution: {integrity: sha512-JwjgmO6i3y6RWtLYmXwO5jMd+maZt8Tnfu7VVISmEWyQqfLpB8soBswf8/2bu6SBXxtKA68Al3c+qIG1ApT68A==}
     dependencies:
       chalk: 4.1.2
-      css-select: 4.1.3
+      css-select: 4.2.1
       parse5: 6.0.1
       parse5-htmlparser2-tree-adapter: 6.0.1
-      postcss: 8.3.8
+      postcss: 8.4.4
       pretty-bytes: 5.6.0
     dev: true
 
@@ -2881,12 +2881,12 @@ packages:
     resolution: {integrity: sha1-gIrcLnnPhHOAabZGyyDsJ762KeA=}
     dev: true
 
-  /css-select/4.1.3:
-    resolution: {integrity: sha512-gT3wBNd9Nj49rAbmtFHj1cljIAOLYSX1nZ8CB7TBO3INYckygm5B7LISU/szY//YmdiSLbJvDLOx9VnMVpMBxA==}
+  /css-select/4.2.1:
+    resolution: {integrity: sha512-/aUslKhzkTNCQUB2qTX84lVmfia9NyjP3WpDGtj/WxhwBzWBYUV3DgUpurHTme8UTPcPlAD1DJ+b0nN/t50zDQ==}
     dependencies:
       boolbase: 1.0.0
       css-what: 5.1.0
-      domhandler: 4.2.2
+      domhandler: 4.3.0
       domutils: 2.8.0
       nth-check: 2.0.1
     dev: true
@@ -3178,7 +3178,7 @@ packages:
     resolution: {integrity: sha512-5c54Bk5Dw4qAxNOI1pFEizPSjVsx5+bpJKmL2kPn8JhBUq2q09tTCa3mjijun2NfK78NMouDYNMBkOrPZiS+ig==}
     dependencies:
       domelementtype: 2.2.0
-      domhandler: 4.2.2
+      domhandler: 4.3.0
       entities: 2.2.0
     dev: true
 
@@ -3193,8 +3193,8 @@ packages:
       webidl-conversions: 5.0.0
     dev: true
 
-  /domhandler/4.2.2:
-    resolution: {integrity: sha512-PzE9aBMsdZO8TK4BnuJwH0QT41wgMbRzuZrHUcpYncEjmQazq8QEaBWgLG7ZyC/DAZKEgglpIA6j4Qn/HmxS3w==}
+  /domhandler/4.3.0:
+    resolution: {integrity: sha512-fC0aXNQXqKSFTr2wDNZDhsEYjCiYsDWl3D01kwt25hm1YIPyDGHvvi3rw+PLqHAl/m71MaiF7d5zvBr0p5UB2g==}
     engines: {node: '>= 4'}
     dependencies:
       domelementtype: 2.2.0
@@ -3205,7 +3205,7 @@ packages:
     dependencies:
       dom-serializer: 1.3.2
       domelementtype: 2.2.0
-      domhandler: 4.2.2
+      domhandler: 4.3.0
     dev: true
 
   /ecc-jsbn/0.1.2:
@@ -4479,7 +4479,7 @@ packages:
     resolution: {integrity: sha512-d6cqsbJba2nRdg8WW2okyD4ceonFHn9jLFxhwlNcLhQWcFPdxXeJulgOLjLKtAK9T6ahd+GQNZwG9fjmGW7lyg==}
     dependencies:
       domelementtype: 2.2.0
-      domhandler: 4.2.2
+      domhandler: 4.3.0
       domutils: 2.8.0
       entities: 3.0.1
     dev: true
@@ -7538,7 +7538,7 @@ packages:
       - supports-color
     dev: true
 
-  /vite-ssg/0.16.2_6d320fdd55a5bc574fac9940b2a14a6b:
+  /vite-ssg/0.16.2_7ff09424ebfdfae03f76c3c1e70a0885:
     resolution: {integrity: sha512-paoBbRdaKBznYf+aTqN2Ltf5dQiBgUKwM2uvwjmPsuPQbVcznzceb13cpoG4WXxlaW2EvPns30NRIM+U6RZU3w==}
     engines: {node: '>=14.0.0'}
     hasBin: true
@@ -7554,7 +7554,7 @@ packages:
     dependencies:
       '@vueuse/head': 0.7.2_vue@3.2.23
       chalk: 4.1.2
-      critters: 0.0.15
+      critters: 0.0.16
       fs-extra: 10.0.0
       html-minifier: 4.0.0
       jsdom: 17.0.0
