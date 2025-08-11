@@ -42,7 +42,7 @@
     "eslint": "^8.3.0",
     "eslint-plugin-cypress": "^2.12.1",
     "https-localhost": "^4.7.0",
-    "markdown-it-link-attributes": "^3.0.0",
+    "markdown-it-link-attributes": "^4.0.0",
     "markdown-it-prism": "^2.2.1",
     "patch-package": "^6.4.7",
     "pnpm": "^6.23.2",
